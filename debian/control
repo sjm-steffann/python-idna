@@ -8,6 +8,8 @@ Build-Depends:
  dh-python,
  python-all,
  python3-all,
+ python-setuptools,
+ python3-setuptools,
 Homepage: https://github.com/kjd/idna
 Vcs-Browser: http://anonscm.debian.org/viewvc/python-modules/packages/python-idna/trunk/
 Vcs-Svn: svn://anonscm.debian.org/python-modules/packages/python-idna/trunk/
