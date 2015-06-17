@@ -1,8 +1,8 @@
-python-idna (2.0-2) UNRELEASED; urgency=medium
+python-idna (2.0-2) unstable; urgency=medium
 
   * Fix broken autopkgtest scripts.
 
- -- Tristan Seligmann <mithrandi@debian.org>  Wed, 17 Jun 2015 08:16:41 +0200
+ -- Tristan Seligmann <mithrandi@debian.org>  Wed, 17 Jun 2015 08:22:12 +0200
 
 python-idna (2.0-1) unstable; urgency=medium
 
