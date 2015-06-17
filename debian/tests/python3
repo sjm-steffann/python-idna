@@ -1,7 +1,8 @@
 #!/bin/bash
 set -e
 
+SRC="$PWD"
 cd "$ADTTMP"
 for py in $(py3versions -vi) ; do
-  python$py -m ecdsa.test_pyecdsa ;
+  python$py -m unittest discover -s "${SRC}/tests" ;
 done
