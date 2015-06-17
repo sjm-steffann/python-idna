@@ -2,7 +2,6 @@
 set -e
 
 SRC="$PWD"
-
 cd "$ADTTMP"
 for py in $(pyversions -vi) ; do
   python$py -m unittest discover -s "${SRC}/tests";
