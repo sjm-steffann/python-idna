@@ -1,3 +1,9 @@
+python-idna (2.0-3) unstable; urgency=medium
+
+  * Add pypy-idna package.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Sun, 30 Aug 2015 01:47:51 +0200
+
 python-idna (2.0-2) unstable; urgency=medium
 
   * Fix broken autopkgtest scripts.

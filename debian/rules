@@ -3,4 +3,4 @@
 export PYBUILD_NAME=idna
 
 %:
-	dh $@ --with python2,python3 --buildsystem=pybuild
+	dh $@ --with python2,python3,pypy --buildsystem=pybuild
