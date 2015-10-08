@@ -6,3 +6,6 @@
 python-idna_2.0.orig.tar.gz
 e48d607370b11e02512bac0985c902112c4dac40
 135150
+debianTag="debian/%e%v"
+patchedTag="patched/%e%v"
+upstreamTag="upstream/%e%u"
