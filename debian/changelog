@@ -1,8 +1,12 @@
-python-idna (2.0-4) UNRELEASED; urgency=medium
+python-idna (2.1-1) unstable; urgency=medium
 
+  [ Ondřej Nový ]
   * Fixed VCS URL (https)
 
- -- Ondřej Nový <novy@ondrej.org>  Tue, 29 Mar 2016 22:08:53 +0200
+  [ Tristan Seligmann ]
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Wed, 06 Apr 2016 23:16:57 +0200
 
 python-idna (2.0-3) unstable; urgency=medium
 
