@@ -1,6 +1,7 @@
 python-idna (2.2-1) unstable; urgency=medium
 
   * New upstream release.
+  * Bump Standards-Version to 3.9.8 (no changes).
 
  -- Tristan Seligmann <mithrandi@debian.org>  Mon, 26 Dec 2016 16:14:46 +0200
 
