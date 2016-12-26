@@ -2,6 +2,7 @@ HISTORY.rst
 LICENSE.rst
 MANIFEST.in
 README.rst
+setup.cfg
 setup.py
 idna/__init__.py
 idna/codec.py
@@ -13,6 +14,7 @@ idna/uts46data.py
 idna.egg-info/PKG-INFO
 idna.egg-info/SOURCES.txt
 idna.egg-info/dependency_links.txt
+idna.egg-info/pbr.json
 idna.egg-info/top_level.txt
 tests/IdnaTest.txt.gz
 tests/__init__.py
