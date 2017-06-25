@@ -3,6 +3,24 @@
 History
 -------
 
+2.5 (2017-03-07)
+++++++++++++++++
+
+- Fix bug with Katakana middle dot context-rule (Thanks, Greg
+  Shikhman.)
+
+2.4 (2017-03-01)
+++++++++++++++++
+
+- Restore IDNAError to be a subclass of UnicodeError, as some users of
+  this library are only looking for the latter to catch invalid strings.
+
+2.3 (2017-02-28)
+++++++++++++++++
+
+- Fix bugs relating to deriving IDNAError from UnicodeError.
+- More memory footprint improvements (Thanks, Alex Gaynor)
+
 2.2 (2016-12-21)
 ++++++++++++++++
 
