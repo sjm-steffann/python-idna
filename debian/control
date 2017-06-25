@@ -8,10 +8,8 @@ Build-Depends:
  dh-python,
  python-all,
  python3-all,
- pypy,
  python-setuptools,
- python3-setuptools,
- pypy-setuptools,
+ python3-setuptools
 Homepage: https://github.com/kjd/idna
 Vcs-Browser: https://anonscm.debian.org/cgit/python-modules/packages/python-idna.git
 Vcs-Git: https://anonscm.debian.org/git/python-modules/packages/python-idna.git
@@ -52,20 +50,3 @@ Description: Python IDNA2008 (RFC 5891) handling (Python 3)
  currently only supports the older 2003 specification.
  .
  This package contains the module for Python 3.
-
-Package: pypy-idna
-Architecture: all
-Depends:
- ${misc:Depends},
- ${pypy:Depends},
-Description: Python IDNA2008 (RFC 5891) handling (PyPy)
- A library to support the Internationalised Domain Names in Applications (IDNA)
- protocol as specified in RFC 5891. This version of the protocol is often
- referred to as “IDNA2008” and can produce different results from the earlier
- standard from 2003.
- .
- The library is also intended to act as a suitable drop-in replacement for the
- “encodings.idna” module that comes with the Python standard library but
- currently only supports the older 2003 specification.
- .
- This package contains the module for PyPy.
